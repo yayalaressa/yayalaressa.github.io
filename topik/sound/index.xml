@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sound on Yaya Laressa</title>
+    <link>https://yaya.my.id/topik/sound/</link>
+    <description>Recent content in sound on Yaya Laressa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 © Yaya Laressa. All Right Reserved.</copyright>
+    <lastBuildDate>Thu, 29 Jul 2021 02:01:58 +0530</lastBuildDate><atom:link href="https://yaya.my.id/topik/sound/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gitarix Software Mirip Guitar Rig</title>
+      <link>https://yaya.my.id/artikel/guitarix-software-mirip-guitar-rig/</link>
+      <pubDate>Thu, 29 Jul 2021 02:01:58 +0530</pubDate>
+      
+      <guid>https://yaya.my.id/artikel/guitarix-software-mirip-guitar-rig/</guid>
+      <description>Hallo teman - teman jumpa lagi,
+Postingan kali ini saya akan membahas mengenai Guitarix, sebuah virtual FX untuk keperluan recording Guitar, yang mana menurut saya software ini tidak kalah powerfull dengan Guitar Rig yang berbayar.</description>
+    </item>
+    
+    <item>
+      <title>Masalah Headset Tidak Keluar Suara Di Ubuntu</title>
+      <link>https://yaya.my.id/artikel/masalah-headset-tidak-keluar-suara-di-ubuntu/</link>
+      <pubDate>Fri, 23 Jul 2021 02:01:58 +0530</pubDate>
+      
+      <guid>https://yaya.my.id/artikel/masalah-headset-tidak-keluar-suara-di-ubuntu/</guid>
+      <description>Hallo teman - teman,
+Kali ini saya akan menuliskan bagaimana cara saya mengatasi headset tidak keluar suara pada Ubuntu, yang mana kebetulan saya memakai versi 20.</description>
+    </item>
+    
+    <item>
+      <title>Cara Memuat VST Windows di Ardour</title>
+      <link>https://yaya.my.id/artikel/cara-memuat-vst-windows-di-ardour/</link>
+      <pubDate>Thu, 13 May 2021 02:01:58 +0530</pubDate>
+      
+      <guid>https://yaya.my.id/artikel/cara-memuat-vst-windows-di-ardour/</guid>
+      <description>Hallo teman - teman,
+Pada kesempatan kali ini saya akan menuliskan tentang bagaimana cara saya menggunakan VST Windows di Ardour pada Linux, karena kebetulan saya adalah pengguna Ubuntu 20.</description>
+    </item>
+    
+  </channel>
+</rss>

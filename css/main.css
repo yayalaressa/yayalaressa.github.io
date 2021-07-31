@@ -1,0 +1,651 @@
+body {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+a, a:hover {
+    word-break: break-word;
+}
+
+html,button,input,select,textarea {
+    color: #333;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+}
+
+a img {
+    border:none;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+blockquote {
+    margin-left: 1rem;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-family: Georgia,bitstream charter,serif;
+    border-left: 3px solid;
+    border-color: #a4afb6;
+    padding-left: 20px;
+}
+
+blockquote cite {
+    font-size: 70%;
+    opacity: .8;
+}
+
+blockquote em {
+    font-weight: 600;
+}
+
+a,a:hover {
+    color: #1DA1F2; /* blue */
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: raleway,sans-serif;
+    line-height: 1.2;
+    color: #333;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: .9rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.container {
+    max-width: 800px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+ul.flat {
+    margin: 0;
+    padding: 0;
+}
+
+ul.flat li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0;
+}
+
+.prevent-collapse {
+    min-height: .1rem
+}
+
+.page-title {
+    margin: 0;
+}
+
+.smaller {
+    font-size: 70%;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+.site-title a {
+	color: #333;
+	text-decoration: none !important;
+}
+
+.header .logo {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.header .logo img {
+  width: 150px;
+}
+
+.post ul li {
+    margin-bottom: 10px;
+}
+
+.post ul li p {
+    display: inline;
+}
+
+.highlight pre {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 20px;
+    background-color: transparent !important;
+    font-size: .9rem;
+}
+
+.highlight {
+    background: 0 0;
+    background-color: #282A36;
+}
+
+pre code {
+  display: inline-block;
+}
+  
+
+.wrapper {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.header {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.header h1,
+.header h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+.header h2 {
+    font-size: 1.125rem;
+}
+
+.header nav {
+    margin-top: 20px;
+    border-top: 1px solid #f4f4f4;
+}
+
+.header nav ul,
+.header nav li {
+    margin: 0;
+}
+
+.header nav ul.flat {
+    padding: 0;
+}
+
+.header nav ul.flat li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.header nav ul.flat li a {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.header nav ul.flat li a:hover {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(29, 161, 242, 0.1);
+  color: #1DA1F2;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.header nav ul.flat li a.active {
+  color: #1DA1F2;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.header .site-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .site-description nav {
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-width: 50px;
+    margin-left: 15px;
+}
+
+.header .site-description nav ul svg {
+    max-height: 15px;
+}
+
+.section .section-header {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.recent-posts .posts .post {
+    margin-bottom: 30px;
+}
+
+.recent-posts .posts .post .meta,
+.post .post-header .meta,
+.list .posts .post .meta {
+    font-size: 0.825rem;
+    color: #999;
+    margin-bottom: 4px;
+}
+
+.post-index {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.post .post-header {
+    margin-bottom: 30px;
+}
+
+.post .post-header .title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.post-tags a {
+	margin-right: 5px;
+}
+
+.post .post-header .meta {
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.post .draft-label {
+    color: #1DA1F2;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 6px;
+    background-color: #f9f2f4;
+}
+
+.post-tags .tags li {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.post-tags .tags a {
+    display: inline-block;
+    border: 1px solid #1DA1F2;
+    border-radius: 4px;
+    padding: 0px 6px;
+    color: #1DA1F2;
+    line-height: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 1px;
+}
+
+.list .posts .post .meta {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.comment {
+    margin-top: 10px;
+    text-align: center !important;
+}
+
+.footer {
+    text-align: right;
+    font-size: 0.75em;
+    color: #999;
+    border-top: 1px solid #f4f4f4;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.page-title {
+    margin-bottom: 0;
+}
+
+.tag-cloud {
+    margin-top: 20px;
+}
+
+.tag-cloud a {
+    margin-right: 15px;
+}
+
+.pagination {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination .page-prev {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.pagination .page-item.page-prev {
+    text-align: left;
+}
+
+.pagination .page-item.page-next {
+    text-align: right;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table th, table td {
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+}
+
+/* Share Button */
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.3em 0.55em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}
+
+.resp-sharing-button--telegram {
+  background-color: #54A9EB;
+}
+
+.resp-sharing-button--telegram:hover {
+  background-color: #4B97D1;}
+
+/* Media */
+@media (max-width: 767px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+}
